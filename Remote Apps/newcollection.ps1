@@ -1,0 +1,2 @@
+#requires -modules RemoteDesktop
+New-RDSessionCollection -CollectionName "LabApps" -SessionHost "localhost" -CollectionDescription "Lab RDS Apps" -SessionCollectionType "RemoteApp" -ConnectionBroker "localhost"

@@ -1,0 +1,1 @@
+Install-WindowsFeature -Name RDS-Web-Access, RDS-RD-Server, RDS-Licensing, RDS-Connection-Broker -IncludeManagementTools
